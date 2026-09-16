@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+}
+
+.calu{
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+button{
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    background: #555;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #777;
+}
+
+#sub{
+    display: flex;
+    justify-content: center;
+}
+
+#sub button{
+    width: 220px;
+    background: #28a745;
+}
+
+#sub button:hover{
+    background: #218838;
+}
+</style>
+<body>
+    <div class="calu">
+        <div class="box">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+        </div>
+        <div class="box">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+        </div>
+        <div class="box">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+        </div>
+        <div class="box">
+            <button>0</button>
+        </div>
+        <div id="sub">
+            <button>Submit</button>
+        </div>
+    </div>
+
+
+
+</body> 
+<script src="./scipt.js"></script>
+</html>
